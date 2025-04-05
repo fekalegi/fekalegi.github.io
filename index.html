@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feka Legi Heryana Rizki – Backend Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #161b22;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #58a6ff;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+      color: #8b949e;
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.3rem 0.8rem;
+      border: 1px solid #238636;
+      border-radius: 9999px;
+      color: #238636;
+      font-size: 0.85rem;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #30363d;
+      margin-top: 1.5rem;
+    }
+    nav {
+      background-color: #161b22;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid #21262d;
+    }
+    nav a {
+      color: #c9d1d9;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #58a6ff;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: #79c0ff;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+    li::before {
+      content: "• ";
+      color: #8b949e;
+    }
+    .resume-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #238636;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem 0;
+      font-size: 0.875rem;
+      color: #8b949e;
+      border-top: 1px solid #21262d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="avatar" src="https://via.placeholder.com/120" alt="Feka's profile photo">
+    <h1>Feka Legi Heryana Rizki</h1>
+    <p>Backend Engineer | Golang Enthusiast | Clean Architecture</p>
+    <div class="badge">Available for work</div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m a backend engineer who enjoys working on scalable systems, diving into distributed architecture, and solving complex problems with simple, reliable code. I believe in clean code, automation, and continuous learning. I’m open to remote jobs and relocation opportunities, and I’m always looking to grow as an engineer.</p>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <ul>
+        <li><strong>Backend Engineer – BRI</strong> (Aug 2023 – Present)<br />
+          Developed and refactored Multipayment services using Golang, gRPC, and PostgreSQL. Built batch upload and Local Tax DKI services with multi-database support.
+        </li>
+        <li><strong>Backend Engineer – Majoo.id</strong> (May 2022 – Jul 2023)<br />
+          Migrated user management from PHP to Go. Built HRIS/Payroll backend with Hexagonal Architecture and MongoDB.
+        </li>
+        <li><strong>Backend Engineer – Homecare24.id</strong> (Sep 2021 – Apr 2022)<br />
+          Developed caretaker service using Go, Echo, PostgreSQL, Redis, and Kafka. Focused on reliability and performance.
+        </li>
+      </ul>
+      <a href="#" class="resume-btn">Download Resume</a>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Golang</li>
+        <li>PostgreSQL</li>
+        <li>gRPC</li>
+        <li>Redis</li>
+        <li>MongoDB</li>
+        <li>Kafka</li>
+        <li>REST APIs</li>
+        <li>Microservice Architecture</li>
+        <li>Clean & Hexagonal Architecture</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>GitHub: <a href="https://github.com/fekalegi" target="_blank">github.com/fekalegi</a></li>
+        <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <div class="footer">
+    &copy; 2025 Feka Legi Heryana Rizki — Made with ❤️ and Golang energy
+  </div>
+</body>
+</html>
